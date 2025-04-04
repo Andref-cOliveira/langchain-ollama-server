@@ -3,7 +3,7 @@ version: "3"
 services:
 
   postgres:
-    image: postgres
+    image: pgvector/pgvector:pg17
     container_name: r1d2_postgres
     networks:
       - agentnet
